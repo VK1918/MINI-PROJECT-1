@@ -1,0 +1,62 @@
+body
+        {
+            font-family: sans-serif;
+        }
+        .superDiv
+        {
+            background: #ffcda0;
+        }
+        .mainDiv
+        {
+            width:80%;
+            margin:auto;
+            display:flex;
+            height:80vh;
+
+        }
+        .content
+        {
+            width:50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .image
+        {
+            width:50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        input,button
+        {
+            padding:10px 20px;
+            border:3px black solid;
+            border-radius:5px;
+        }
+        button
+        {
+            padding:10px 20px;
+            background:black;
+            color:white;
+        }
+        .freeText
+        {
+            margin-left:20px;
+            font-size:14px;
+            color:white;
+        }
+        .footerContent
+        {
+
+            display: flex;
+            justify-content: space-between;
+            width:60%;
+            margin:auto;
+            color:white;
+        }
+        .footerContent ul
+        {
+            list-style: none;
+            padding:0px;
+        }
